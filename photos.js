@@ -1,11 +1,11 @@
 window.GALLERY_PHOTOS = [
   {
     "src": "assets/photos/hamster.png",
-    "thumb": "sample-01.svg",
+    "thumb": "assets/photos/hamster.png",
     "width": 900,
     "height": 1200,
-    "alt": "Abstract placeholder 1",
-    "caption": "Your caption 1"
+    "alt": "My hamster",
+    "caption": "Cutest pic ever"
   },
   {
     "src": "sample-02.svg",
