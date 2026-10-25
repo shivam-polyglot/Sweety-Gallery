@@ -113,7 +113,7 @@ window.GALLERY_PHOTOS = [
   },
   {
     "src": "assets/photos/15.jpeg",
-    "thumb": "assets/photos/7.jpeg",
+    "thumb": "assets/photos/15.jpeg",
     "width": 900,
     "height": 1200,
     "alt": "Abstract placeholder 15",
