@@ -1,6 +1,6 @@
 window.GALLERY_PHOTOS = [
   {
-    "src": "sample-01.svg",
+    "src": "assets/photos/hamster.png",
     "thumb": "sample-01.svg",
     "width": 900,
     "height": 1200,
