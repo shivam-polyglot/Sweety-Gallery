@@ -8,12 +8,12 @@ window.GALLERY_PHOTOS = [
     "caption": "Cutest pic ever"
   },
   {
-    "src": "sample-02.svg",
-    "thumb": "sample-02.svg",
+    "src": "2.png",
+    "thumb": "2.png",
     "width": 1200,
     "height": 900,
-    "alt": "Abstract placeholder 2",
-    "caption": "Your caption 2"
+    "alt": "ajji thodi idhar dekh lo ji",
+    "caption": "ajji thodi idhar dekh lo ji"
   },
   {
     "src": "sample-03.svg",
