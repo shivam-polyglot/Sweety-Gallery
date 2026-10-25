@@ -32,20 +32,20 @@ window.GALLERY_PHOTOS = [
     "caption": "pic with spec!!"
   },
   {
-    "src": "assets/photos/5.png",
-    "thumb": "assets/photos/5.png",
+    "src": "assets/photos/meow.png",
+    "thumb": "assets/photos/meow.png",
     "width": 900,
     "height": 1200,
-    "alt": "Green Backgrounded asthetic!!",
-    "caption": "Green Backgrounded asthetic!!"
+    "alt": "cutiepie!!",
+    "caption": "cutiepie!!"
   },
   {
-    "src": "assets/photos/6.png",
-    "thumb": "assets/photos/6.png",
+    "src": "assets/photos/6.jpeg",
+    "thumb": "assets/photos/6.jpeg",
     "width": 1200,
     "height": 900,
     "alt": "Abstract placeholder 6",
-    "caption": "Your caption 6"
+    "caption": "Pinky Pink"
   },
   {
     "src": "assets/photos/7.jpeg",
@@ -137,7 +137,7 @@ window.GALLERY_PHOTOS = [
   },
   {
     "src": "assets/photos/18.jpeg",
-    "thumb": "assets/photos18.jpeg",
+    "thumb": "assets/photos/18.jpeg",
     "width": 1200,
     "height": 900,
     "alt": "Abstract placeholder 18",
