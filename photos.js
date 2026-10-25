@@ -8,28 +8,28 @@ window.GALLERY_PHOTOS = [
     "caption": "Cutest pic ever"
   },
   {
-    "src": "2.png",
-    "thumb": "2.png",
+    "src": "assets/photos/2.png",
+    "thumb": "assets/photos/2.png",
     "width": 1200,
     "height": 900,
     "alt": "ajji thodi idhar dekh lo ji",
     "caption": "ajji thodi idhar dekh lo ji"
   },
   {
-    "src": "sample-03.svg",
-    "thumb": "sample-03.svg",
+    "src": "assets/photos/3.png",
+    "thumb": "assets/photos/3.png",
     "width": 900,
     "height": 1200,
-    "alt": "Abstract placeholder 3",
-    "caption": "Your caption 3"
+    "alt": "ahh i am dieing",
+    "caption": "ahh i am dieing"
   },
   {
-    "src": "sample-04.svg",
-    "thumb": "sample-04.svg",
+    "src": "assets/photos/4.png",
+    "thumb": "assets/photos/4.png",
     "width": 1200,
     "height": 900,
-    "alt": "Abstract placeholder 4",
-    "caption": "Your caption 4"
+    "alt": "pic with specs",
+    "caption": "pic with spec!!"
   },
   {
     "src": "sample-05.svg",
