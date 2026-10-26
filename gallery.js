@@ -181,6 +181,7 @@
     caption.textContent=p.caption||'';
     caption.hidden=!p.caption;
     viewer.setAttribute('aria-label',p.caption||p.alt);
+    updatePhotoMusic(p);
     for(const delta of [-1,1]){const img=new Image();img.src=photos[(current+delta+photos.length)%photos.length].src;img.decode().catch(()=>{});}
   }
   function animateFrom(rect){
