@@ -26,7 +26,14 @@
   musicFrame.loading = 'lazy';
 
   musicPanel.append(musicTitle, musicFrame);
-  caption.after(musicPanel);
+
+  const photoFigure = caption.closest('figure');
+
+  if (photoFigure) {
+    photoFigure.append(musicPanel);
+  } else {
+    caption.after(musicPanel);
+  }
 
   function updatePhotoMusic(photo) {
     const match = photo.music?.match(
