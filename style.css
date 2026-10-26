@@ -83,7 +83,7 @@ figcaption{font-size:clamp(1.15rem,2.1vw,1.6rem);font-weight:500;line-height:1.1
 }
 
 #photo-spotify p {
-  margin: 0 0 10px;
+  margin: 10px auto 12px;
   font-size: 14px;
   line-height: 1.4;
   font-weight: 600;
