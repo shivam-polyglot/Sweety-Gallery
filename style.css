@@ -60,7 +60,7 @@ figcaption{font-size:clamp(1.15rem,2.1vw,1.6rem);font-weight:500;line-height:1.1
   box-sizing: border-box;
   width: 100%;
   max-width: 640px;
-  margin: 16px auto 0;
+  margin: 16px auto 14px;
   padding: 0 16px;
   text-align: center;
   line-height: 1.5;
