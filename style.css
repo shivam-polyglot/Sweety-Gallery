@@ -67,14 +67,16 @@ figcaption{font-size:clamp(1.15rem,2.1vw,1.6rem);font-weight:500;line-height:1.1
   overflow-wrap: anywhere;
 }
 
-/* Spotify player */
+
+/* Compact Spotify player */
 #photo-spotify {
   position: relative;
   z-index: 5;
   box-sizing: border-box;
-  width: min(360px, 100%);
-  margin: 10px auto 12px;
-  padding: 0 12px;
+  width: 240px;
+  max-width: 85%;
+  margin: 8px auto 12px;
+  padding: 0;
   text-align: left;
 }
 
@@ -83,8 +85,8 @@ figcaption{font-size:clamp(1.15rem,2.1vw,1.6rem);font-weight:500;line-height:1.1
 }
 
 #photo-spotify p {
-  margin: 10px auto 12px;
-  font-size: 14px;
+  margin: 0 0 6px;
+  font-size: 12px;
   line-height: 1.4;
   font-weight: 600;
   color: #555;
@@ -98,18 +100,11 @@ figcaption{font-size:clamp(1.15rem,2.1vw,1.6rem);font-weight:500;line-height:1.1
   border-radius: 12px;
 }
 
-/* Desktop */
-@media (min-width: 601px) {
+/* Keep the player compact on desktop and mobile */
+@media (max-width: 600px) {
   #photo-spotify {
-    width: min(360px, 90%);
+    width: 240px;
+    max-width: 85%;
   }
 }
 
-/* Mobile */
-@media (max-width: 600px) {
-  #photo-spotify {
-    width: 100%;
-    max-width: 340px;
-    margin: 14px auto 8px;
-  }
-}
