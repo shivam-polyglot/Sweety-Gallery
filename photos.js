@@ -165,7 +165,7 @@ window.GALLERY_PHOTOS = [
     "width": 900,
     "height": 1200,
     "alt": "Abstract placeholder 21",
-    "caption": "Best pic i saved for my fav spot!!"
+    "caption": "Best pic i saved for my fav spot!!",
     "music": "https://open.spotify.com/track/412poAqbwD8OC0dYD1nBkV"
   }
 ];
