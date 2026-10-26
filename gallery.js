@@ -6,6 +6,45 @@
   const viewer=document.querySelector('#viewer');
   const fullPhoto=document.querySelector('#full-photo');
   const caption=document.querySelector('#caption');
+  
+  // Spotify player shown inside the photo viewer
+  const musicPanel = document.createElement('div');
+  musicPanel.id = 'photo-spotify';
+  musicPanel.hidden = true;
+
+  const musicTitle = document.createElement('p');
+  musicTitle.textContent = 'Listen to this song';
+
+  const musicFrame = document.createElement('iframe');
+  musicFrame.title = 'Spotify music player';
+  musicFrame.width = '100%';
+  musicFrame.height = '152';
+  musicFrame.style.border = '0';
+  musicFrame.style.borderRadius = '12px';
+  musicFrame.allow =
+    'autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture';
+  musicFrame.loading = 'lazy';
+
+  musicPanel.append(musicTitle, musicFrame);
+  caption.after(musicPanel);
+
+  function updatePhotoMusic(photo) {
+    const match = photo.music?.match(
+      /open\.spotify\.com\/(track|album|playlist)\/([A-Za-z0-9]+)/
+    );
+
+    if (!match) {
+      musicFrame.src = 'about:blank';
+      musicPanel.hidden = true;
+      return;
+    }
+
+    musicFrame.src =
+      `https://open.spotify.com/embed/${match[1]}/${match[2]}`;
+
+    musicPanel.hidden = false;
+  }
+
   const reduced=matchMedia('(prefers-reduced-motion: reduce)');
   const mobile=matchMedia('(max-width: 600px)');
   const swipePreview=document.createElement('img');
